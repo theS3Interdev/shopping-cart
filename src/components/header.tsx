@@ -1,6 +1,6 @@
 const Header = () => {
 	return (
-		<header>
+		<header className="row block center">
 			<div>
 				<a href="/">
 					<h1>React Shopping Cart</h1>
