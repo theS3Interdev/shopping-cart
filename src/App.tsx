@@ -1,8 +1,16 @@
+import Header from './components/header';
+import Main from './components/main';
+import Basket from './components/basket';
+
 function App() {
 	return (
-		<>
-			<h1>Hello World</h1>
-		</>
+		<div>
+			<Header />
+			<div>
+				<Main />
+				<Basket />
+			</div>
+		</div>
 	);
 }
 
